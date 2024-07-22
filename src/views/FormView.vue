@@ -13,7 +13,20 @@ export default Vue.extend({
     <!-- TODO placeholder, remove this text -->
     <p>Form View</p>
     <FormComponent>
-      <!-- TODO add relevant components to render form here -->
+      <address-history></address-history>
     </FormComponent>
   </div>
 </template>
+
+
+
+<script lang="ts">
+import { defineComponent } from 'vue';
+import AddressHistory from './AddressHistory.vue';
+
+export default defineComponent({
+  components: {
+    AddressHistory,
+  },
+});
+</script>
