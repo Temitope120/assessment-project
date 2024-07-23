@@ -18,15 +18,8 @@ export default Vue.extend({
   </div>
 </template>
 
-
-
 <script lang="ts">
-import { defineComponent } from 'vue';
-import AddressHistory from './AddressHistory.vue';
+import AddressHistory from "./AddressHistory.vue";
 
-export default defineComponent({
-  components: {
-    AddressHistory,
-  },
-});
+
 </script>
